@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card - Table Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        .profile-card {
+            background-color: #ffffff;
+            width: 600px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            background-color: #eef2f7;
+        }
+
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Container centered using inline style -->
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+        <div class="profile-card">
+            <img src="finalpic.jpg" alt="Profile Picture">
+
+            <h1>Joshua Mendoza</h1>
+
+            <p>
+                I’m a motivated web development beginner with a serious love for HTML and CSS.
+                I want to build small projects, break them, fix them, and call that front-end growth.
+            </p>
+
+            <!-- Thematic break -->
+            <hr>
+
+            <h2>Top Skills</h2>
+
+            <!-- Skills in table -->
+            <table>
+                <tr>
+                    <td>Learning HTML</td>
+                    <td>Learning CSS</td>
+                </tr>
+                <tr>
+                    <td>Building Small Pages</td>
+                    <td>Basic Web Layout</td>
+                </tr>
+            </table>
+
+            <h2>Hobbies</h2>
+            <table>
+                <tr>
+                    <td>Exploring Web Design</td>
+                    <td>Practicing Coding</td>
+                </tr>
+                <tr>
+                    <td>Watching Tutorials</td>
+                    <td>Building Mini Projects</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
